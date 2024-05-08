@@ -1,7 +1,5 @@
 import React from 'react';
-import '/assets/css/styles.css';
-import '/assets/css/index.css';
-import '/assets/css/header.css';
+import './'
 const Homepage = () => {
     return (
         <div className="content">

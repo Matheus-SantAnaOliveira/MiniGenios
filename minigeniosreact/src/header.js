@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import '/assets/css/header.css';
-import '/assets/css/styles.css';
+import './header.css';
+import './index.css';
+
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isEnvelopeFlapped, setIsEnvelopeFlapped] = useState(false);

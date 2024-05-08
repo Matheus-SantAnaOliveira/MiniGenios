@@ -1,0 +1,72 @@
+/* Reset de estilos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+/* Estilos para o contêiner principal */
+.main-content {
+    height: 700px;
+    width: 30%;
+    background-color: gray;
+    display: flex; 
+    flex-direction: column; /* Alterado para empilhar os elementos verticalmente */
+    justify-content: flex-end; /* Alinha o conteúdo na parte inferior do contêiner */
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+/* Estilos para o título */
+h1 {
+    text-align: center;
+}
+
+/* Estilos para a área de texto dentro do contêiner principal */
+.main-content textarea {
+    width: 100%; 
+    height: 80px; /* Reduzi a altura para 80px para uma aparência mais equilibrada */
+    resize: none;  
+    padding: 10px; 
+    border: 1px solid black; 
+}
+
+/* Reset de estilos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+/* Estilos para o título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Reduzi a margem para uma aparência mais sutil */
+}
+
+/* Estilos para o contêiner principal */
+.container-h1 {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Empilhar os elementos verticalmente */
+}
+
+.main-container {
+    height: 400px;
+    width: 100%;
+    background-color: gray;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.main-container textarea {
+    width: 80%; 
+    height: 80%; 
+    resize: none;  
+    padding: 10px; 
+    border: 1px solid black; 
+}
+

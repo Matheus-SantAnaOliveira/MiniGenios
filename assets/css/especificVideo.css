@@ -1,0 +1,37 @@
+/* Estilo para cada container de vídeo */
+.video-container {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+    width: 80%;
+    background-color: #e4dddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+/* Estilo para o ícone dentro do container */
+.video-container i {
+    font-size: 40px;
+    color: #333;
+    margin-right: 10px; /* Adiciona espaço entre o ícone e o texto */
+    margin-left: 50px;
+}
+
+/* Estilo para o título do vídeo */
+.video-container h3 {
+    font-size: 18px;
+    color: #333;
+    margin-left: 50px;
+    margin: 0;
+}
+.quest {
+    margin-left: 40px;
+}
+.pergunta {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #837878;
+}
